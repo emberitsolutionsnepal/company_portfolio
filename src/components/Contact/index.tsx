@@ -67,8 +67,8 @@ const Contact = () => {
                   Ready to transform your business digitally?
                 </h2>
                 <p className="mt-4 text-base text-body-color dark:text-dark-6">
-                  Let's discuss your project and bring your vision to life.
-                  We're here to help you succeed.
+                  Let&apos;s discuss your project and bring your vision to life.
+                  We&apos;re here to help you succeed.
                 </p>
               </div>
               <div className="mb-12 grid grid-cols-1 gap-8 md:grid-cols-2 lg:mb-0">
@@ -174,7 +174,7 @@ const Contact = () => {
                 Get Free Consultation
               </h3>
               <p className="mb-6 text-sm text-body-color dark:text-dark-6">
-                Fill out the form below and we'll get back to you within 24
+                Fill out the form below and we&apos;ll get back to you within 24
                 hours with a detailed quote.
               </p>
               <form onSubmit={handleSubmit}>

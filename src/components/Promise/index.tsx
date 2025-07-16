@@ -69,7 +69,7 @@ const PromiseSection = () => {
               Ready to Get Started?
             </h3>
             <p className="dark:text-body-color-dark mb-6 text-body-color">
-              Let's discuss your project and see how we can help bring your
+              Let&apos;s discuss your project and see how we can help bring your
               vision to life.
             </p>
             <button className="rounded-md bg-primary px-8 py-3 text-white transition-all duration-300 hover:bg-primary/90">

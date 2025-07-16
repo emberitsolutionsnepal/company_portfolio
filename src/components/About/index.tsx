@@ -25,8 +25,9 @@ const About = () => {
                   <br /> <br />
                   Our approach combines cutting-edge technology with proven
                   methodologies to ensure your projects are delivered on time,
-                  within budget, and to the highest quality standards. We're not
-                  just developers – we're your technology partners.
+                  within budget, and to the highest quality standards.
+                  We&apos;re not just developers – we&apos;re your technology
+                  partners.
                 </p>
 
                 <Link

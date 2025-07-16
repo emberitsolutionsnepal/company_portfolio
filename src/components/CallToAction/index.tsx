@@ -12,7 +12,7 @@ const CallToAction = () => {
                   <span>Ready to Build Something Amazing?</span>
                   <span className="text-3xl font-normal md:text-[40px]">
                     {" "}
-                    Let's Start Your Project{" "}
+                    Let&apos;s Start Your Project{" "}
                   </span>
                 </h2>
                 <p className="mx-auto mb-6 max-w-[515px] text-base leading-[1.5] text-white">
