@@ -10,12 +10,13 @@ function slugify(str: string) {
     .replace(/(^-|-$)/g, "");
 }
 
-export default function ServiceDetailPage({
+export default async function ServiceDetailPage({
   params,
 }: {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }) {
-  const service = featuresData.find((s) => slugify(s.title) === params.slug);
+  const { slug } = await params;
+  const service = featuresData.find((s) => slugify(s.title) === slug);
 
   if (!service) {
     notFound();
