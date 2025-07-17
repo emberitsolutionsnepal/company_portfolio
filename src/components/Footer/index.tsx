@@ -25,7 +25,7 @@ const Footer = () => {
             <div className="mb-10 w-full">
               <Link href="/" className="mb-6 inline-block max-w-[160px]">
                 <Image
-                  src="/images/logo/logo-white.svg"
+                  src="/images/logo/ember_logo.png"
                   alt="logo"
                   width={140}
                   height={30}
@@ -133,14 +133,14 @@ const Footer = () => {
                     FAQ
                   </Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link
                     href="/blogs"
                     className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
                     Blogs
                   </Link>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
