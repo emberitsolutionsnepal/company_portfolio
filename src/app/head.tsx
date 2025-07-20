@@ -25,7 +25,7 @@ export default function Head() {
         content="Leading IT solutions company in Nepal specializing in custom software development, web applications, mobile apps, and digital transformation services."
       />
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://emberitsolutions.com" />
+      <meta property="og:url" content="https://emberitsolutions.vercel.app" />
       <meta property="og:image" content="/play-nextjs.png" />
     </>
   );
