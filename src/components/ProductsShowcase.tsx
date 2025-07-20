@@ -5,6 +5,36 @@ import { useState } from "react";
 
 export const productList = [
   {
+    name: "Life Hub",
+    description:
+      "Ultimate productivity app for individuals to manage their day-to-day activities. Track tasks, habits, moods, and finances in one comprehensive platform.",
+    image: "/images/products/lifehub.png",
+    features: [
+      "Task management",
+      "Habit tracking",
+      "Mood monitoring",
+      "Financial planning",
+    ],
+    tech: ["Flutter", "Dart", "Supabase"],
+    demo: "#",
+    // type: "Web",
+  },
+  {
+    name: "CRMLite",
+    description:
+      "Lightweight CRM solution designed for small businesses to manage customer relationships, sales pipelines, and business operations efficiently.",
+    image: "/images/products/crmlite.png",
+    features: [
+      "Customer management",
+      "Sales pipeline tracking",
+      "Lead management",
+      "Business analytics",
+    ],
+    tech: ["Flutter", "Dart", "Firebase"],
+    demo: "#",
+    // type: "Web",
+  },
+  {
     name: "Local Business Website",
     description:
       "UI template for a local business website (e.g., beauty salon) with booking and gallery sections. Not a live product.",
@@ -116,12 +146,13 @@ const ProductsShowcase = () => {
       <div className="mx-auto max-w-7xl px-4">
         <div className="mb-12 text-center">
           <h2 className="mb-4 text-3xl font-bold text-dark dark:text-white">
-            UI Showcases
+            Our Products showcase
           </h2>
           <p className="text-base text-body-color dark:text-dark-6">
             Explore our gallery of UI templates and demo interfaces for various
-            business needs. These are not live products, but ready-to-use UI
-            concepts and design inspirations.
+            business needs. Some of these are not live products, but
+            ready-to-use UI concepts and design inspirations while some are
+            ready to use products.
           </p>
         </div>
         <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
@@ -145,7 +176,7 @@ const ProductsShowcase = () => {
               <h3 className="mb-2 text-center text-lg font-semibold text-dark dark:text-white">
                 {product.name}
               </h3>
-              <p className="text-center text-sm text-body-color dark:text-dark-6">
+              <p className="text-justify text-sm text-body-color dark:text-dark-6">
                 {product.description}
               </p>
             </div>
